@@ -1,0 +1,20 @@
+.next {
+  background: lightblue;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.next:hover {
+  background: white;
+}
+.previous {
+  background: lightblue;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.previous:hover {
+  background: white;
+}

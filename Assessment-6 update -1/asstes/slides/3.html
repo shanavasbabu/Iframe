@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment-6</title>
+    <link rel="stylesheet" href="./assets/css/3(css)/index.css" />
+  </head>
+  <body onload="loadData()">
+    <div class="container">
+      <header class="header-text">
+        Basic Operations Using Calculator | Introduction
+      </header>
+      <div class="characterImg">
+        <img
+          src="./assets/images/3/character.png"
+          alt="character-img"
+          id="char"
+        />
+      </div>
+      <div>
+        <p class="data1" id="txt1">Number<br />buttons</p>
+        <img
+          src="./assets/images/3/text1.png"
+          alt="text1"
+          class="text1"
+          id="one"
+        />
+        <p class="data2" id="txt2">‘ON’<br />button</p>
+        <img
+          src="./assets/images/3/text2.png"
+          alt="text2"
+          class="text2"
+          id="two"
+        />
+        <p class="data3" id="txt3">Screen</p>
+        <img
+          src="./assets/images/3/text4.png"
+          alt="text4"
+          class="text4"
+          id="three"
+        />
+        <p class="data4" id="txt4">Operation<br />buttons</p>
+        <img
+          src="./assets/images/3/text3.png"
+          alt="text3"
+          class="text3"
+          id="four"
+        />
+      </div>
+      <div class="clickBtn">
+        <a href="javascript:void(0)"
+          ><img
+            src="./assets/images/3/click-button.png"
+            alt="clickBtn"
+            id="Btn"
+            onclick="block()"
+        /></a>
+        <div id="light" class="white_content">
+          <p class="boxtext">Light Box</p>
+          The Pascaline the first <b>calculator</b> was designed and built by
+          the French mathematician-philosopher Blaise Pascal between 1642 and
+          1644.
+          <a
+            href="javascript:void(0)"
+            onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"
+            >Close</a
+          >
+        </div>
+        <div id="fade" class="black_overlay"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/3(js)/index.js"></script>
+</html>

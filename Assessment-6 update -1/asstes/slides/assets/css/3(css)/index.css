@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background: lightgray;
+}
+.container {
+  background: white;
+  width: 750px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../../images/3/calculator.png);
+  background-size: 449px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* visibility: hidden; */
+}
+.header-text {
+  font-size: 20px;
+  background: rgba(227, 201, 206, 1);
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.data1 {
+  margin-top: 122px;
+  position: absolute;
+  margin-left: 185px;
+  font-size: 14px;
+}
+.data2 {
+  margin-top: 28px;
+  position: absolute;
+  margin-left: 166px;
+  font-size: 14px;
+}
+.data3 {
+  position: absolute;
+  font-size: 14px;
+  top: 113px;
+  margin-left: 505px;
+}
+.data4 {
+  position: absolute;
+  font-size: 14px;
+  top: 331px;
+  margin-left: 515px;
+}
+.text1 {
+  width: 184px;
+  margin-left: 149px;
+  margin-top: 94px;
+}
+#txt1 {
+  visibility: hidden;
+}
+#txt2 {
+  visibility: hidden;
+}
+#txt3 {
+  visibility: hidden;
+}
+#txt4 {
+  visibility: hidden;
+}
+#one {
+  visibility: hidden;
+}
+
+#two {
+  visibility: hidden;
+}
+
+#three {
+  visibility: hidden;
+}
+
+#four {
+  visibility: hidden;
+}
+
+.text2 {
+  width: 167px;
+  margin-left: 78px;
+  margin-bottom: 116px;
+}
+.text3 {
+  width: 174px;
+  margin-top: 0px;
+  margin-left: 125px;
+}
+.text4 {
+  width: 157px;
+  margin-left: -142px;
+  margin-bottom: -109px;
+}
+.clickBtn img {
+  width: 96px;
+  margin-top: -11px;
+}
+#Btn {
+  visibility: hidden;
+}
+.characterImg img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  width: 100px;
+  height: 250px;
+  right: 249px;
+  bottom: 60px;
+}
+#char {
+  visibility: hidden;
+}
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: 0.8;
+}
+.white_content {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  top: 66%;
+  left: 25%;
+  width: 40%;
+  height: 13%;
+  padding: 6px 6px 0px 23px;
+  border: 1px solid gray;
+  background-color: rgba(230, 224, 236, 0.9);
+  overflow: auto;
+  border-radius: 20px;
+}
+.boxtext {
+  background: rgba(112, 48, 160, 1);
+  color: white;
+  width: 73px;
+  padding: 5px 0px 3px 7px;
+  margin-bottom: 5px;
+}
